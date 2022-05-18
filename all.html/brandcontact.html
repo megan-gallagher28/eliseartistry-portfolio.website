@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Manrope:wght@300&family=Montserrat:ital,wght@1,200&family=Oooh+Baby&family=Overlock+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css/nav.css">
+    <link rel="stylesheet" href="../styles.css/contact.css">
+</head>
+<header class="header">
+    <nav class="navbar">
+        <div class="navlogo">
+            <h1 class="elise">Elise</h1>
+            <h2 class="artistry">Artistry</h2>
+        </div>
+        <ul class="navmenu">
+            <li class="nav-item">
+                <a href="homee.html" class="navlink">home</a>
+            </li>
+            <li class="navitem">
+                <a href="brand.html" class="navlink">portfolio</a>
+            </li>
+            <li class="navitem">
+                <a href="portfolioo.html" class="navlink">gallery</a>
+            </li>
+            <li class="navitem">
+                <a href="brandcontact.html" class="navlink">contact</a>
+            </li>
+            <li class="navitem">
+                <a href="https://www.instagram.com/eliseartistry/" class="navlink" target="_blank">
+                    <ion-icon name="logo-instagram"> </ion-icon>
+                </a>
+            </li>
+            <li class="navitem">
+                <a href="https://www.linkedin.com/in/elise-webb-b50073178" class="navlink" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<h1 id="connect">Lets connect!</h1>
+<p> Submit the form below to set up a session</p>
+
+<body>
+    <div class="contact">
+        <form id="application" method="post" action="process.php">
+            <!--action (insert URL where you want data to go-->
+            <datalist id="textdata">
+                <option value="Instagram"></option>
+                <option value="Linkedin"></option>
+                <option value="Family/Friends"></option>
+                <option value="Facebook"></option>
+            </datalist>
+            <label for="firstname">First name</label><br><input type="text" name="firstname" id="firstname" autocomplete="given-name" autofocus required placeholder=" Elise "><br><br>
+            <!--label for="has to be same as id "-->
+
+            <label for="lastname">Last name</label><br><input type="text " name="lastname " id="lastname " autocomplete="family-name" required placeholder="Webb "><br><br>
+
+            <label for="companyname">Company Name</label>
+            <br><input type="text " id="companyname " name="companyname" placeholder="Elise Artistry"><br><br>
+
+            <label for="email">Email</label><br><input type="email " id="email" name="email" autocomplete="email" required placeholder="eliseartistryphotos@gmail.com "><br><br>
+            <!--have to input type=email for email addresses-->
+
+            <label for="shootrequests ">Specific Photoshoot requests?</label><br><input type="text" id="shootrequests " name="shootrequests " placeholder="Location, products being photographed, etc "><br><br>
+
+            <label for="hearaboutme ">How did you hear about me?</label><br><input type="text " id="hearaboutme " name="hearaboutme " list="textdata " required><br><br>
+
+
+            <button>Submit</button>
+        </form>
+    </div>
+
+</body>
+
+<script src="../script.js/form.js"></script>
+
+
+</html>
+
+
+
+</html>
