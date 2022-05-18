@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#connect {
+    font-family: 'Oooh Baby', cursive;
+    font-size: 75px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 100px;
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+}
+
+form {
+    display: inline-block;
+    padding-top: 25px;
+}
+
+input [type=text]:focus {
+    border-color: darkblue;
+    border-width: 3px;
+}
+
+.logo {
+    left: 0;
+    position: fixed;
+}
+
+
+/*shows fields are clickable*/
+
+label:focus-within {
+    color: blue;
+}
+
+input[type=text]:focus {
+    border: 1px solid darkblue;
+}
+
+button {
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+}
